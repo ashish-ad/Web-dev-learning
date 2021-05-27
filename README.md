@@ -1,2 +1,2 @@
 # Web-dev-leraning
-Web development  (verzeo)
+Web development  [ Full Stack ]
