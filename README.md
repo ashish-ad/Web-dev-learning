@@ -1,2 +1,2 @@
-# Web-dev-leraning
+# Web-dev-learning
 Web development  [ Full Stack ]
