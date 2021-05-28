@@ -9,7 +9,17 @@
 }
 #main{
     background-color: rgb(255,34,89);
+    padding: 10px;
+    margin: 30px;
+    border-radius: 10px;
+    background-image: linear-gradient(#F1EFE9,#2E79FF,#FF3153);
 }
 #second{
-    background-color:rgb(207,107,12)
+    background-color:rgb(207,107,12);
+    /* Box MOdel */
+    padding: 10px;
+    margin: 30px;
+    border-radius: 10px;
+    background-image: linear-gradient(#FF3153,#2E79FF);
+
 }
