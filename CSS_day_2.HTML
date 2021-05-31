@@ -14,20 +14,22 @@
            background-attachment:fixed;
        }
         #maindiv{
-            background-image: radial-gradient(#adc2e9,#2df506);
+            /* background-image: radial-gradient(#adc2e9,#2df506); */
             padding: 30px;
             margin: 40px;
             border-radius: 20px;
             box-shadow: rgb(4, 253, 253);
             animation: myanim;
-            animation-duration: 2s;
-            animation-iteration-count: infinite;
+            animation-duration: 7s;
+            animation-iteration-count: 10;
 
         }
         @keyframes myanim{
-            form {background-color: darkolivegreen;}
-            to{background-color: darkturquoise;}
-            
+            0% {background-color: darkolivegreen;}
+            25% {background-color: darkturquoise;}
+            50% {background-color: darkolivegreen;}
+            75% {background-color: darkturquoise;}
+            100%{background-color: darkolivegreen;}           
         }
     </style>
 </head>
