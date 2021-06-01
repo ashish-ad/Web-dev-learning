@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid</title>
+    <style>
+        .one{ grid-area: main;}
+        .two{grid-area: product;}
+        .three{grid-area: gallery;}
+        .four{grid-area: about ;}
+        .five{grid-area: contact ;}
+
+        .maindiv{
+            display:grid;
+            grid-template-areas:
+            'main main main main main main'
+            'product product product gallery gallery gallery'
+            'product product product about about about'
+            'contact contact contact contact contact contact';
+            grid-gap: 20px;
+            background-color: wheat;
+            padding: 20px;
+            margin:20px;
+            box-shadow:thistle 3px;
+            border-radius: 30px
+        }
+        .maindiv > div{
+            padding: 20px;
+            margin: 20px;
+            text-align: center;
+            font-size: 36px;
+            border-radius: 10px;
+            background-color: forestgreen;
+            box-shadow:rgb(9, 6, 9) 7px 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div align="Center">
+        <h1>This is My Grid Box</h1>
+
+    </div>
+    <br><br>
+    <div class= "maindiv">
+        <div class= "one">Main</div>
+        <div class= "two">Products</div>
+        <div class= "three">Gallery</div>
+        <div class = "four">About Us</div>
+        <div class = "five">Contact Us</div>
+    </div>
+    
+</body>
+</html>
