@@ -1,11 +1,9 @@
-const john = 'john'
-const peter = 'peter'
+const john = 'john';
+const peter = 'peter';
 
-const sayHi = (Name) => {
-    console.log('Hello there ${Name}')
+function sayHi(Name)  {console.log('Hello there ${Name}');} 
 
-}
 
-sayHi('Susan')
-sayHi(john)
-sayHi(peter)
+sayHi('Susan');
+sayHi(john);
+sayHi(peter); 
