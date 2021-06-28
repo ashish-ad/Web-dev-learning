@@ -1,0 +1,15 @@
+$mycolor:red;
+$myscolor:green;
+
+
+#mydiv{
+    padding :30px;
+    margin: 30px;
+    border-radius:30px;
+    background-color:$myscolor;
+    text-align:center;
+}   
+
+p{
+    font-size:75px+30px;
+}
