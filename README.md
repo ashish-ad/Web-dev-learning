@@ -6,4 +6,3 @@
 1. Data Hub
 1. Servers
 1. Under the Ocean deployed fiber cables 🌊
-1. 
