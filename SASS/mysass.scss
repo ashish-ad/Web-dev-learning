@@ -1,5 +1,6 @@
 $mycolor:red;
 $myscolor:green;
+$mytextsize: 35px;
 
 
 #mydiv{
@@ -8,8 +9,26 @@ $myscolor:green;
     border-radius:30px;
     background-color:$myscolor;
     text-align:center;
+    // Nested 
+    #one{
+        font-size:75px+30px;
+    }
+    #two{
+        font-size:50px;
+    }
+    #three{
+        color:rebeccapurple;
+    }
+
+    // Nested
+    #secondiv{
+        background-color: rosybrown;
+        width:200px;
+        border-radius: 20px;
+        // Nested in Nested 
+        #four{
+            color: seashell;
+        }
+    }
 }   
 
-p{
-    font-size:75px+30px;
-}

@@ -6,7 +6,25 @@
   text-align: center;
 }
 
-p {
+#mydiv #one {
   font-size: 105px;
+}
+
+#mydiv #two {
+  font-size: 50px;
+}
+
+#mydiv #three {
+  color: rebeccapurple;
+}
+
+#mydiv #secondiv {
+  background-color: rosybrown;
+  width: 200px;
+  border-radius: 20px;
+}
+
+#mydiv #secondiv #four {
+  color: seashell;
 }
 /*# sourceMappingURL=mysass.css.map */
