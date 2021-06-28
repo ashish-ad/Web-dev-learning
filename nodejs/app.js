@@ -1,9 +1,11 @@
-const john = 'john';
-const peter = 'peter';
+const express = require('express')
+const app = express()
 
-function sayHi(Name)  {console.log('Hello there ${Name}');} 
+const port = 5000
+app.get('/',(req,res) => {
+    res.send('hello world!')
+})
 
-
-sayHi('Susan');
-sayHi(john);
-sayHi(peter); 
+app.listen (port,()=>{
+    console.log('example app listening at http://localhost:${port}')
+})
