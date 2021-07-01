@@ -3,4 +3,4 @@ const express = require('express');
 
 const mongooseConnection = mongoose();
 
-init~
+init 
