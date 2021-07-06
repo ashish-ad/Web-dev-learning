@@ -1,8 +1,19 @@
-const express = require("express");
+const express = require('express')
+const app = express()
 
-const app = express();
+app.use(loggingMiddleware)
 
-app.get('/', (req,res,next) => {
-    res.sendFile('C:/Users/ashis/Documents/Web Development [Full Stack-Verzeo]/css.HTML')
+app.get('/', (req, res) => {
+  res.send('Home Page')
 })
-app.listen(3000);
+
+app.get('/users', (req, res) => {
+  res.send('Users Page')
+})
+
+function loggingMiddleware(req, res, next) {
+  console.log('Inside Middleware')
+  next()
+}
+
+app.listen(3000, () => console.log('Server Started'))
